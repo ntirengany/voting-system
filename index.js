@@ -80,19 +80,8 @@ app.post('/ussd', (req, res) => {
         // Voting option selected
         response =
           userLanguages[phoneNumber] === 'en'
-            ? `CON Select a candidate:\n1. Umulisa Kathia\n2. Manzi kyle\n3. Mugabo justin\n4. Mukiza fabrice`
-            : `CON hitamo umukandida:\n1.Umulisa Kathia\n2. Manzi kyle\n3. Mugabo justin\n4. Mukiza fabrice`;
-        // db.query('SELECT * FROM candidates', (err, res) => {
-        //   if (err) {
-        //     console.error('Error retrieving candidates:', err);
-        //     res.send(`END Error retrieving candidates`);
-        //   } else {
-        //     results.forEach((candidate) => {
-        //       response += `\n${candidate.id}. ${candidate.names}`;
-        //     });
-        //     res.send(response);
-        //   }
-        // });
+            ? `CON Select a candidate:\n1. Ntirenganya Gilbert\n2. Muhoza Moses\n3. Mugabo andrew\n4. Mwiza anne`
+            : `CON hitamo umukandida:\n1.Ntirenganya Gilbert\n2. Muhoza Moses\n3. Mugabo andrew\n4. Mwiza anne`;
       }
     } else if (userInput[2] === '2') {
       // View votes option selected
