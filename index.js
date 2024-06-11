@@ -26,10 +26,10 @@ db.connect((err) => {
 
 // In-memory storage for votes (for simplicity)
 let votes = {
-  'Nkurunziza Pacifique ': 0,
-  'Manzi kyle': 0,
-  'Ngabonziza bruno ': 0,
-  'Byiza kelia': 0,
+  'Ntirenganya Gilbert ': 0,
+  'Muhoza Moses': 1,
+  'Mugabo andrew ': 3,
+  'Mwiza anne': 0,
 };
 
 // In-memory storage for user data (for simplicity)
